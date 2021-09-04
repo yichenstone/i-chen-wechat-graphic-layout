@@ -18,7 +18,7 @@
 
 支持幕布html内容输入： https://mp.weixin.qq.com/s/KKIuXYvkEnAHZfveNqjWrA：
 
-支持Markdown格式内容输入：
+支持Markdown格式内容输入：https://mp.weixin.qq.com/s/yNCGtRIm29oFDq1IrwbwBA
 
 #### 其他
 
