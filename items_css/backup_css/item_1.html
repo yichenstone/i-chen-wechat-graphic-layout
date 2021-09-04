@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/right.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="buju_right">
+			<div class="title_text">
+				CSS代码
+			</div>
+			<div class="but">
+				<input type="button" name="save" id="save_item" value="保存" />
+				<div id="save_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but">
+				<input type="button" name="copy" id="copy_item" value="复制" />
+				<div id="copy_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but" >
+				<input type="button" name="reset" id="reset_item" value="重置" />
+				<div id="reset_correct" class="correct">
+					
+				</div>
+			</div>
+			<textarea rows="35" cols="20" class="out_text" name="textarea" id="item_text" charset="utf-8">.body{/* 整个页面属性 */
+        margin-top: -10px;/* 整体页面上边距-10px */
+	padding: 0 10px; /* 整体页面边距:上下0,左右10px */
+	font-size: 16px;/* 文字大小 */
+	color: #3f3f3f;/* 文字颜色 */
+	text-align: left; /* 文字居左 */
+	line-height: 1.6em;/* 行高 */
+	letter-spacing: 0.034em;/* 字符间隔 */
+	word-wrap: break-word; /* 允许长单词换行到下一行 */
+	font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/* 字体 */
+}
+h1{/* 一级标题框架属性 */
+	letter-spacing: 0.544px;
+	white-space: normal;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	background-image: url("https://re-yichen.oss-cn-beijing.aliyuncs.com/img/title_1.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 75px;
+	line-height: 95px;
+	margin-top: 38px;
+	margin-bottom: 10px;
+}
+h1 .h1_num{/* 一级标题序号属性 */
+        font-size: 20px;
+	color: rgb(46, 159, 180);
+	border-bottom: 2px solid rgb(46, 121, 80);
+	margin-right: 5px;
+}
+h1 .text{/* 一级标题文字属性 */
+	font-size: 20px;
+	color: rgb(46, 159, 180);
+	border-bottom: 2px solid rgb(46, 121, 80);
+}
+h1 .text_noNum{/* 一级标题文字属性（无序号） */
+	font-size: 20px;
+	color: rgb(46, 159, 180);
+	border-bottom: 2px solid rgb(46, 121, 80);
+}
+h2{/* 二级标题框架属性 */
+	display: block;
+	padding: 0px;
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/title2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: 50px;
+	margin-top: 1em;
+	margin-bottom: 10px;
+}
+h2 .h2_num{/* 二级标题序号属性 */
+        display: inline-block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: #2e9fb4; 
+	background-size: 63px; 
+	margin-top: 38px; 
+	font-size: 18px; 
+	margin-bottom: 10px;
+        margin-right: 5px;
+}
+h2 .text{/* 二级标题文字属性 */
+	display: inline-block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: #2e9fb4; 
+	background-size: 63px; 
+	margin-top: 38px; 
+	font-size: 18px; 
+	margin-bottom: 10px;
+}
+h2 .text_noNum{/* 二级标题文字属性（无序号） */
+	display: inline-block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: #2e9fb4; 
+	background-size: 63px; 
+	margin-top: 38px; 
+	font-size: 18px; 
+	margin-bottom: 10px;
+}
+h3{/* 三级标题框架属性 */
+	margin-bottom: 15px;
+	padding: 0px;
+	color: black;
+	margin-top: 1.2em;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/h3.png);
+	background-repeat: no-repeat;
+	background-size: 17px;
+	line-height: 17px;
+}
+h3 .h3_num{/* 三级标题序号属性 */
+        font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: #2e9fb4;
+        margin-left:20px;
+        margin-right: 5px;
+}
+h3 .text{/* 三级标题文字属性 */
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: #2e9fb4;
+}
+h3 .text_noNum{/* 三级标题文字属性（无序号） */
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: #2e9fb4;
+        margin-left:20px;
+}
+p{/* 正文属性 */
+	margin: 10px 0px;
+	text-align: justify;/* 文字两端对齐 */
+	/* text-indent:2em */ /* 首行缩进 */
+}
+img{/* 图片属性 */
+	display: block;
+	margin: 20px auto 10px;
+	max-width: 100%;
+	border-radius: 4px;
+}
+.img_title{/* 图片名称 */
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #888;
+	font-size: 12px;
+}
+.underline,.codespan{/* 下划线属性 */
+	font-size: 14px;
+	font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+	margin: 0 2px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	color: #2e9fb4;
+	background-color: rgba(27,31,35,.05);
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.strong{/* 加粗属性 */
+	font-weight: bold;
+	line-height: 1.75em;
+	color: rgb(74,74,74);
+}
+.italics{/* 斜体属性 */
+	background: linear-gradient(to right, #27dbb3, #2e9fb4);
+	color: white;
+	border-width: 0.25em 0px;
+	padding: 2px 4px;
+}
+ul{/* 无序列表框架 */
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 25px;
+	color: black;
+	list-style-type: disc;
+}
+ul li{/* 无序列表文字 */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 26px;
+	text-align: left;
+	color: rgb(1,1,1);
+	font-weight: 500;
+}
+ol{/* 有序列表框架 */
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 25px;
+	color: black;
+	list-style-type: decimal;
+}
+ol li{/* 有序列表文字 */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 26px;
+	text-align: left;
+	color: rgb(1,1,1);
+	font-weight: 500;
+}
+blockquote{/* 引用框架 */
+	display: block;
+	font-size: 0.9em;
+	color: #6a737d;
+	overflow: auto;
+	overflow-scrolling: touch;
+	background: rgba(0, 0, 0, 0.05);
+	background-color: #FBF9FD;
+	margin: 20px 0px;
+	padding: 15px 20px;
+	line-height: 27px;
+	border-left: 3px solid #2e9fb4;
+}
+blockquote p{/* 引用内容 */
+	margin: 0px;
+	padding: 0px;
+	line-height: 26px;
+	font-size: 15px;
+	color: rgb(89,89,89);
+}
+.divider{/* 分割线属性 */
+        display: block;
+}
+.divider_img{/* 分割线图片属性 */
+}
+body{ /* 默认属性 */
+        padding:0px 0px;
+        margin:0px;
+        background-color: white;/* 背景颜色 */
+}
+svg{ /* 默认属性，需要添加svg图像时可使用 */
+        display:none;
+}
+.h1_img,.h2_img,.h3_img{ /* 默认属性，需要添加图片标题背景时可使用 */
+        display:none;
+}</textarea>
+		</div>
+	</body>
+	<script src="./js/right.js" type="text/javascript" charset="utf-8"></script>
+</html>

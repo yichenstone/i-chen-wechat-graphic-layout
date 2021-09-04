@@ -1,0 +1,13 @@
+
+.text{
+	height: 80vh;
+	width: 94vw;
+	display: block;
+	font-size: 2em;
+	color: rgba(102,153,204,50%);
+	margin-top: 5vw;
+	text-align: center;
+	/* border: #CCCCCC solid 2px;
+	border-radius: 5vw; */
+	padding-top: 10vh;
+}

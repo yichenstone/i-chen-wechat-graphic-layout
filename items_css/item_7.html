@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/right.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="buju_right">
+			<div class="title_text">
+				CSS代码
+			</div>
+			<div class="but">
+				<input type="button" name="save" id="save_item" value="保存" />
+				<div id="save_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but">
+				<input type="button" name="copy" id="copy_item" value="复制" />
+				<div id="copy_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but" >
+				<input type="button" name="reset" id="reset_item" value="重置" />
+				<div id="reset_correct" class="correct">
+					
+				</div>
+			</div>
+			<textarea rows="35" cols="20" class="out_text" name="textarea" id="item_text" charset="utf-8">.body{/* 整个页面属性 */ 
+	padding: 10px; /* 整体页面边距:上下左右10px */
+	font-size: 15px;/* 文字大小 */
+	color: rgba(0, 0, 0, 0.8);/* 文字颜色 */
+	text-align: left; /* 元素居左 */
+	line-height: 1.6em;/* 行高 */
+	letter-spacing: 0.034em;/* 字符间隔 */
+	word-wrap: break-word; /* 允许长单词换行到下一行 */
+	font-family: Optima-Regular, PingFangTC-light;/* 字体 */
+}
+h1{/* 一级标题框架属性 */
+	display:block;
+	margin: 30px auto 20px;
+	padding: -1px 25px;
+	text-align: center;
+}
+h1 .h1_num{/* 一级标题序号属性 */
+	color:  rgb(53, 115, 185);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	text-align: center;
+	line-height: 1;
+	margin:0px 5px 0px;
+        border: rgb(53, 115, 185) solid 1px;
+        padding: 2px 4px;
+}
+h1 .text{/* 一级标题文字属性 */
+	font-family: 微软雅黑;
+	color: rgb(53, 115, 185);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	padding: 2px 10px;
+	width: auto;
+        text-align: center;
+        background-image:url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%8F%B3%E4%B8%8A.png),url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%B7%A6%E4%B8%8B.png) ;
+	background-repeat: no-repeat,no-repeat;
+	background-position: right top,left bottom;
+	background-size: 15px,8px;
+        border: rgb(53, 115, 185) solid 1px;
+}
+h1 .text_noNum{/* 一级标题文字属性（无序号） */
+	font-family: 微软雅黑;
+	color: rgb(53, 115, 185);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+        text-align: center;
+        background-image:url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%8F%B3%E4%B8%8A.png),url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%B7%A6%E4%B8%8B.png) ;
+	background-repeat: no-repeat,no-repeat;
+	background-position: right top,left bottom;
+	background-size: 15px,8px;
+        border: rgb(53, 115, 185) solid 1px;
+}
+h2{/* 二级标题框架属性 */
+	display:block;
+	margin: 30px auto 20px;
+	padding: 2px 25px;
+	text-align: center;
+}
+h2 .h2_num{/* 二级标题序号属性 */
+	color:  rgb(53, 115, 185);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	text-align: center;
+	line-height: 1;
+	margin:0px 5px 0px;
+        border: rgb(53, 115, 185) solid 1px;
+        padding: 2px 4px;
+}
+h2 .text{/* 二级标题文字属性 */
+	font-family: 微软雅黑;
+	color: rgb(53, 115, 185);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	padding: 2px 10px;
+	width: auto;
+        text-align: center;
+        background-image:url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%8F%B3%E4%B8%8A.png),url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%B7%A6%E4%B8%8B.png) ;
+	background-repeat: no-repeat,no-repeat;
+	background-position: right top,left bottom;
+	background-size: 15px,8px;
+        border: rgb(53, 115, 185) solid 1px;
+}
+h2 .text_noNum{/* 二级标题文字属性（无序号） */
+	font-family: 微软雅黑;
+	color: rgb(53, 115, 185);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+        text-align: center;
+        background-image:url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%8F%B3%E4%B8%8A.png),url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%B7%A6%E4%B8%8B.png) ;
+	background-repeat: no-repeat,no-repeat;
+	background-position: right top,left bottom;
+	background-size: 15px,8px;
+        border: rgb(53, 115, 185) solid 1px;
+}
+h3{/* 三级标题框架属性 */
+	display: block;
+	padding: 0px 10px;
+    margin: 20px 0 10px;
+	text-align: left;
+}
+
+h3 span{/* 三级标题文字属性 */
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: rgb(205, 246, 255);
+	line-height: 22.4px;
+	white-space: pre-wrap;
+	padding: 0px 2px;
+}
+h3 .h3_num{/* 三级标题序号属性 */
+	padding-right: 5px;
+}
+
+p{/* 正文属性 */
+	text-align: left;
+	padding: 5px 5px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+	line-height: 2em;
+        text-align: justify;/* 文字两端对齐 */
+	font-size: 15px;
+        margin: 10px 0px;
+}
+img{/* 图片属性 */
+	display: block;
+	margin: 20px auto 10px;
+	max-width: 100%;
+	border-radius: 2px;
+}
+.img_title{/* 图片名称 */
+	display: block;
+	color: rgb(136, 136, 136);
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	margin-bottom: 22px;
+}
+.underline,.codespan{/* 下划线属性 */
+	display: inline-flex;
+	background: linear-gradient(to bottom, transparent 50%, yellow 30%, transparent);
+	font-family: Optima-Regular, PingFangTC-light;
+	letter-spacing: 1px;
+	white-space: pre-wrap;
+	padding: 0px 2px;
+	border-radius: 10px;
+	margin: 0 2px;
+}
+.strong{/* 加粗属性 */
+	font-weight: bolder;
+	font-size: 17px;
+	color: rgb(255, 79, 121);
+}
+.italics{/* 斜体属性 */
+	font-size: 15px;
+	letter-spacing: 1px;
+	white-space: pre-wrap;
+	background-color: rgb(221, 238, 248);
+	padding: 0px 2px;
+	margin: 0 2px;
+}
+ul{/* 无序列表框架 */
+	margin: 5px 16px 5px 0px;
+	padding: 0px 0px 0px 10px;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+ul li{/* 无序列表文字 */
+	padding: 5px 1px 5px 30px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+	list-style-type:none;
+	background:url("https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E4%BA%91.svg") no-repeat 0rem 0.3rem;
+	background-size:25px;
+}
+ol{/* 有序列表框架 */
+	margin: 5px 16px 10px 20px;
+	padding: 0px 0px 0px 10px;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+ol li{/* 有序列表文字 */
+	padding: 5px 1px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+}
+blockquote{/* 引用框架 */
+	display: block;
+	font-size: 0.9em;
+	color: rgb(47, 47, 47);
+	overflow: auto;
+	overflow-scrolling: touch;
+	background: rgba(0, 0, 0, 0.05);
+	background-color: #FBF9FD;
+	margin: 10px 10px;
+	padding: 15px 20px;
+	border-left: 3px solid rgba(53, 115, 185,50%);
+}
+blockquote p{/* 引用内容 */
+	margin: 5px;
+	padding: 0px;
+	font-size: 15px;
+	color: rgb(136, 136, 136);
+    line-height: 2em;
+}
+.divider{/* 分割线属性 */
+        display: block;
+	/* border-top: rgb(205, 246, 255) dotted 1px; */
+}
+.divider_img{/* 分割线图片属性 */
+	border: 0px;
+        padding: 30px 0px;
+	width: 15%;
+}
+body{ /* 默认属性 */
+        padding:0px 0px;
+        margin:0px;
+        background-color: white;/* 背景颜色 */
+}
+svg{ /* 默认属性，需要添加svg图像时可使用 */
+        display:none;
+}
+.h1_img,.h2_img,.h3_img{ /* 默认属性，需要添加图片标题背景时可使用 */
+        display:none;
+}</textarea>
+		</div>
+	</body>
+	<script src="./js/right.js" type="text/javascript" charset="utf-8"></script>
+</html>

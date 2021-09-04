@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/right.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="buju_right">
+			<div class="title_text">
+				CSS代码
+			</div>
+			<div class="but">
+				<input type="button" name="save" id="save_item" value="保存" />
+				<div id="save_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but">
+				<input type="button" name="copy" id="copy_item" value="复制" />
+				<div id="copy_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but" >
+				<input type="button" name="reset" id="reset_item" value="重置" />
+				<div id="reset_correct" class="correct">
+					
+				</div>
+			</div>
+			<textarea rows="35" cols="20" class="out_text" name="textarea" id="item_text" charset="utf-8">.body{/* 整个页面属性 */ 
+	padding: 10px; /* 整体页面边距:上下左右0px */
+	font-size: 15px;/* 文字大小 */
+	color: #545454;/* 文字颜色 */
+	text-align: left; /* 文字居左 */
+	line-height: 1.6em;/* 行高 */
+	letter-spacing: 0.034em;/* 字符间隔 */
+	word-wrap: break-word; /* 允许长单词换行到下一行 */
+	font-family: Optima-Regular, PingFangTC-light;/* 字体 */
+}
+h1{/* 一级标题框架属性 */
+	padding:0px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210421211349.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+h1 .h1_num{/* 一级标题序号属性 */
+	display: block;
+	color:  #ae0b2a;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 0.544px;
+	text-indent: 0em;
+	font-family: "Microsoft YaHei UI";
+}
+h1 .text{/* 一级标题文字属性 */
+	font-family: 微软雅黑;
+	color: #ae0b2a;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+	text-align: center;
+}
+h1 .text_noNum{/* 一级标题文字属性（无序号） */
+	font-family: 微软雅黑;
+	color: #ae0b2a;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-left: 5px;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+	text-align: center;
+}
+h2{/* 二级标题框架属性 */
+	padding: 4px 0px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210421211349.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+h2 .h2_num{/* 二级标题序号属性 */
+	display: block;
+	color:  #ae0b2a;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0.544px;
+	text-indent: 0em;
+	font-family: "Microsoft YaHei UI";
+}
+h2 .text{/* 二级标题文字属性 */
+	font-family: 微软雅黑;
+	color: #ae0b2a;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-left: 5px;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+        text-align: center;
+}
+h2 .text_noNum{/* 二级标题文字属性（无序号） */
+	font-family: 微软雅黑;
+	color: #ae0b2a;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-left: 5px;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+	text-align: center;
+}
+h3{/* 三级标题框架属性 */
+	margin: 40px 15px 15px 10px;
+	padding: 0px 3px;
+	color: black;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E9%9B%AA%E9%87%8C%E7%BA%A2%E6%A2%85.svg);
+	background-repeat: no-repeat;
+	background-size: 25px;
+	line-height: 25px;
+}
+h3 .h3_num{/* 三级标题序号属性 */
+    font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	color: #ae0b2a;
+	margin-left:20px;
+	margin-right: 5px;
+}
+h3 .text{/* 三级标题文字属性 */
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	color: #ae0b2a;
+}
+
+h3 .text_noNum{/* 三级标题文字属性（无序号） */
+	font-size: 15px;
+	font-weight: bold;
+	display: inline-block;
+	color: #ae0b2a;
+	margin-left:20px;
+}
+
+p{/* 正文属性 */
+	white-space: normal;
+	letter-spacing: 1px;
+	line-height: 30px;
+    text-align: justify;/* 文字两端对齐 */
+	font-size: 15px;
+	margin:5px 5px;
+}
+img{/* 图片属性 */
+	display: block;
+	margin: 20px auto 10px;
+	max-width: 100%;
+	border-radius: 2px;
+	border: 1px solid rgb(0, 0, 0);
+}
+.img_title{/* 图片名称 */
+	display: block;
+	color: rgb(136, 136, 136);
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	margin-bottom: 22px;
+}
+.underline,.codespan{/* 下划线属性 */
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #ae0b2a;
+	background-color: rgba(174, 167, 167,20%);
+	padding: 0px 4px;
+	border-radius: 3px;
+	margin: 0px 2px;
+}
+.strong{/* 加粗属性 */
+	font-weight: bolder;
+	font-size: 15px;
+	color: #ae0b2a;
+}
+.italics{/* 斜体属性 */
+	background:linear-gradient(to right,#ae0b2a, pink);
+	font-family: Optima-Regular, PingFangTC-light;
+	letter-spacing: 1px;
+	white-space: pre-wrap;
+	padding: 0px 10px 0px 8px;
+	border-radius: 15px 0px 15px 0px;
+	font-style: italic;
+	color: white;
+	margin: 0px 2px;
+}
+ul{/* 无序列表框架 */
+	margin: 5px 16px 10px 20px;
+	padding: 0px 0px 0px 10px;
+	letter-spacing: 0.5px;
+}
+ul li{/* 无序列表文字 */
+	padding: 5px 0px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+}
+ol{/* 有序列表框架 */
+	margin: 5px 16px 10px 25px;
+	padding: 0px 10px;
+	letter-spacing: 0.5px;
+}
+ol li{/* 有序列表文字 */
+	padding: 5px 0px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+}
+blockquote{/* 引用框架 */
+	display: block;
+	font-size: 0.9em;
+	color: rgb(47, 47, 47);
+	overflow: auto;
+	overflow-scrolling: touch;
+	background: rgb(245, 245, 245);
+	background-color: #FBF9FD;
+	margin: 10px 10px;
+	padding: 15px 20px;
+	border-left: 2px dashed #ae0b2a;
+	border-radius: 20px 0px 20px 0px;
+}
+blockquote p{/* 引用内容 */
+	margin: 5px;
+	padding: 0px;
+	font-size: 15px;
+	color: rgb(136, 136, 136);
+    line-height: 2em;
+}
+.divider{/* 分割线属性 */
+        display: block;
+}
+.divider_img{/* 分割线图片属性 */
+	border: 0px;
+        padding: 30px 0px;
+}
+body{ /* 默认属性 */
+        padding:0px 0px;
+        margin:0px;
+        background-color: white;/* 背景颜色 */
+}
+svg{ /* 默认属性，需要添加svg图像时可使用 */
+        display:none;
+}
+.h1_img,.h2_img,.h3_img{ /* 默认属性，需要添加图片标题背景时可使用 */
+        display:none;
+}</textarea>
+		</div>
+	</body>
+	<script src="./js/right.js" type="text/javascript" charset="utf-8"></script>
+</html>

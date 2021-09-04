@@ -1,0 +1,23 @@
+<html>
+	<head><title>一陈微信图文排版工具</title></head>
+	<style type="text/css">
+		html{
+			background-color: white;
+			background-image: url(img/yudi.png);
+			background-repeat:no-repeat;
+			background-size:100%;
+			-moz-background-size:100% 100%;
+		}
+	</style>
+	<frameset rows="10%,*" frameborder="no" >
+		<frame src="top.html" name="top" style="border-bottom:2px solid white;box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3) ;"/>
+		<frameset cols="25%,*" frameborder="no">
+			<frame src="./left.html" name="left" id="left1" style="border-right:4px solid rgba(0, 0, 0, 0.3);" />
+			<frameset cols="60%,*" frameborder="no">
+				<frame src="middle.html" name="middle" id="middle1" />
+				<frame src="items_css/right.html" name="right" id="right1" />
+			</frameset>
+		</frameset>
+	</frameset>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>

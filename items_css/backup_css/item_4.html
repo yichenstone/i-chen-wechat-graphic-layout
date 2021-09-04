@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/right.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="buju_right">
+			<div class="title_text">
+				CSS代码
+			</div>
+			<div class="but">
+				<input type="button" name="save" id="save_item" value="保存" />
+				<div id="save_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but">
+				<input type="button" name="copy" id="copy_item" value="复制" />
+				<div id="copy_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but" >
+				<input type="button" name="reset" id="reset_item" value="重置" />
+				<div id="reset_correct" class="correct">
+					
+				</div>
+			</div>
+			<textarea rows="35" cols="20" class="out_text" name="textarea" id="item_text" charset="utf-8">.body{/* 整个页面属性 */ 
+	padding: 10px; /* 整体页面边距:上下左右10px */
+	font-size: 14px;/* 文字大小 */
+	color: rgba(0, 0, 0, 0.8);/* 文字颜色 */
+	text-align: left; /* 文字居左 */
+	line-height: 1.6em;/* 行高 */
+	letter-spacing: 0.034em;/* 字符间隔 */
+	word-wrap: break-word; /* 允许长单词换行到下一行 */
+	font-family: Optima-Regular, PingFangTC-light;/* 字体 */
+}
+h1{/* 一级标题框架属性 */
+	display: block;
+	padding: 0px 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+h1 .h1_num{/* 一级标题序号属性 */
+	display: block;
+	color:  #000000;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	text-align: center;
+	line-height: 1;
+        margin:40px auto 8px;
+	width: 30%;
+	border-bottom:  #000000 solid 3px;
+}
+h1 .text{/* 一级标题文字属性 */
+	font-family: 微软雅黑;
+	color: white;
+	background-color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+        text-align: center;
+}
+h1 .text_noNum{/* 一级标题文字属性（无序号） */
+	font-family: 微软雅黑;
+	color: white;
+	background-color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+        text-align: center;
+}
+h2{/* 二级标题框架属性 */
+	display: block;
+	padding: 0px 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+h2 .h2_num{/* 二级标题序号属性 */
+	display: block;
+	color:  #000000;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	text-align: center;
+	line-height: 1;
+	margin:40px auto 8px;
+	width: 30%;
+	border-bottom:  #000000 solid 3px;
+}
+h2 .text{/* 二级标题文字属性 */
+	font-family: 微软雅黑;
+	color: white;
+	background-color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+        text-align: center;
+}
+h2 .text_noNum{/* 二级标题文字属性（无序号） */
+	font-family: 微软雅黑;
+	color: white;
+	background-color: #000000;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+	padding: 2px 4px;
+	width: auto;
+        text-align: center;
+}
+h3{/* 三级标题框架属性 */
+	display: block;
+	padding: 0px 5px;
+        margin-top: 30px;
+}
+
+h3 span{/* 三级标题文字属性 */
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: rgb(205, 246, 255);
+	line-height: 22.4px;
+	white-space: pre-wrap;
+	padding: 0px 2px;
+}
+h3 .h3_num{/* 三级标题序号属性 */
+	padding-right: 5px;
+}
+
+p{/* 正文属性 */
+	padding: 5px 5px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+	line-height: 2em;
+        text-align: justify;/* 文字两端对齐 */
+        margin: 10px 0px;
+}
+img{/* 图片属性 */
+	display: block;
+	margin: 20px auto 10px;
+	max-width: 100%;
+	border-radius: 2px;
+	border: 1px solid rgb(0, 0, 0);
+}
+.img_title{/* 图片名称 */
+	display: block;
+	color: rgb(136, 136, 136);
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	margin-bottom: 22px;
+}
+.underline,.codespan{/* 下划线属性 */
+	background-color: rgb(255, 245, 165);
+	font-family: Optima-Regular, PingFangTC-light;
+	letter-spacing: 1px;
+	white-space: pre-wrap;
+	padding: 0px 2px;
+}
+.strong{/* 加粗属性 */
+	font-weight: bolder;
+}
+.italics{/* 斜体属性 */
+	font-size: 16px;
+	letter-spacing: 1px;
+	white-space: pre-wrap;
+	background-color: rgb(255, 245, 165);
+	font-style: italic;
+	padding: 0px 2px;
+}
+ul{/* 无序列表框架 */
+	margin: 5px 5px 10px 20px;
+	padding: 0px 10px;
+	letter-spacing: 0.5px;
+}
+ul li{/* 无序列表文字 */
+	padding: 5px 0px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+}
+ol{/* 有序列表框架 */
+	margin: 5px 5px 10px 25px;
+	padding: 0px 10px;
+	letter-spacing: 0.5px;
+}
+ol li{/* 有序列表文字 */
+	padding: 5px 0px;
+	white-space: normal;
+	letter-spacing: 0.5px;
+}
+blockquote{/* 引用框架 */
+	display: block;
+	font-size: 0.9em;
+	color: rgb(47, 47, 47);
+	overflow: auto;
+	overflow-scrolling: touch;
+	background: rgba(0, 0, 0, 0.05);
+	background-color: #FBF9FD;
+	margin: 10px 10px;
+	padding: 15px 20px;
+	border-left: 3px solid rgb(205, 226, 255);
+}
+blockquote p{/* 引用内容 */
+	margin: 5px;
+	padding: 0px;
+	font-size: 15px;
+	color: rgb(136, 136, 136);
+    line-height: 2em;
+}
+.divider{/* 分割线属性 */
+        display: block;
+	/* border-top: rgb(205, 246, 255) dotted 1px; */
+}
+.divider_img{/* 分割线图片属性 */
+	border: 0px;
+        padding: 30px 0px;
+}
+body{ /* 默认属性 */
+        padding:0px 0px;
+        margin:0px;
+        background-color: white;/* 背景颜色 */
+}
+svg{ /* 默认属性，需要添加svg图像时可使用 */
+        display:none;
+}
+.h1_img,.h2_img,.h3_img{ /* 默认属性，需要添加图片标题背景时可使用 */
+        display:none;
+}</textarea>
+		</div>
+	</body>
+	<script src="./js/right.js" type="text/javascript" charset="utf-8"></script>
+</html>

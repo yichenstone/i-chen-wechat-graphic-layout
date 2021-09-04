@@ -1,0 +1,67 @@
+body{
+	overflow:scroll;
+}
+body::-webkit-scrollbar{
+	display: none;
+}
+div{
+	display: block;
+}
+.title_text{
+	display: block;
+	margin: 2vw;
+	font-weight: bold;
+	font-size: 4vw;
+	float: left;
+}
+.but{
+	font-size: 1vw;
+	float: right;
+	margin: 2vw 3vw;
+	position: relative;
+	right: 2vw;
+}
+.but input{
+	display: block;
+	float: left;
+	margin-bottom: 1vw;
+	outline: none;
+	border:#CCCCCC solid 1px;
+	background-color: #CCCCCC;
+	padding: 0.6vw 2.2vw 0.8vw;
+	border-radius: 1vw;
+	font-size: 2vw;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 2px 3px rgba(0,0,0,30%);
+	margin: 0 auto;
+	outline:none;
+	cursor: pointer;
+}
+.but input:hover{
+	background-color: #8FBC8F;
+	transition: 0.5s ;
+}
+.out_text{
+	float: left;
+	border: #CCCCCC 1px solid;
+	border-radius: 2vw;
+	width: 85%;
+	height: 80vh;
+	padding: 5vw;
+	margin: 1vw;
+	line-height: 6vw;
+	text-align: left;
+	outline: none;
+}
+
+.correct{
+	color: darkseagreen;
+	font-size: 2vw;
+	width: auto;
+	position: absolute;
+}
+
+textarea{
+				background-color:rgba(255,255,255,70%);
+			}

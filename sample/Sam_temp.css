@@ -1,0 +1,227 @@
+body{/* 整个页面属性 */ 
+	margin-top: -10px;/* 整体页面上边距-10px */
+	padding: 0 10px; /* 整体页面边距:上下0,左右10px */
+	font-size: 15px;/* 文字大小 */
+	color: #3f3f3f;/* 文字颜色 */
+	text-align: left; /* 文字居左 */
+	line-height: 1.6em;/* 行高 */
+	letter-spacing: 0.034em;/* 字符间隔 */
+	word-wrap: break-word; /* 允许长单词换行到下一行 */
+	font-family: Optima-Regular, PingFangTC-light;/* 字体 */
+	background-color: white;/* 背景颜色 */
+}
+h1{/* 一级标题框架属性 */
+	display: block;
+	padding: 0px;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/title_3.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: 250px;
+}
+h1 .h1_num{/* 一级标题序号属性 */
+	display: block;
+	color: rgb(255, 175, 56);
+	font-size: 34px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+h1 .text{/* 一级标题文字属性 */
+	display: block;
+	font-family: 微软雅黑;
+	color: rgb(98, 174, 209);
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+}
+h1 .text_noNum{/* 一级标题文字属性（无序号） */
+	display: block;
+	font-family: 微软雅黑;
+	color: rgb(98, 174, 209);
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-top: 40px;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+}
+h2{/* 二级标题框架属性 */
+	display: block;
+	padding: 0px;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/title_3.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: 250px;
+}
+h2 .h2_num{/* 二级标题序号属性 */
+	display: block;
+	color: rgb(255, 175, 56);
+	font-size: 34px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+h2 .text{/* 二级标题文字属性 */
+	display: block;
+	font-family: 微软雅黑;
+	color: rgb(98, 174, 209);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-bottom: 40px;
+}
+h2 .text_noNum{/* 二级标题文字属性（无序号） */
+	display: block;
+	font-family: 微软雅黑;
+	color: rgb(98, 174, 209);
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 0em;
+	margin-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+h3{/* 三级标题框架属性 */
+	display: block;
+	padding: 0px;
+        margin-top: 30px;
+}
+h3 .h3_num{/* 三级标题序号属性 */
+	font-size: 28px;
+	font-weight: 300;
+	font-style: italic;
+	color: rgb(255, 175, 56);
+	letter-spacing: 0.5px;
+	margin-right: 8px;
+}
+h3 .text{/* 三级标题文字属性 */
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: bold;
+}
+h3 .text_noNum{/* 三级标题文字属性（无序号） */
+	letter-spacing: 2px;
+	font-size: 16px;
+	font-weight: bold;
+}
+p{/* 正文属性 */
+	margin: 20px 16px;
+	padding-right: 0em;
+	padding-left: 0em;
+	white-space: normal;
+	letter-spacing: 0.5px;
+	line-height: 2.5em;
+        text-align: justify;/* 文字两端对齐 */
+}
+img{/* 图片属性 */
+	display: block;
+	margin: 20px auto 10px;
+	max-width: 100%;
+	border-radius: 4px;
+}
+.img_title{/* 图片名称 */
+	display: block;
+	color: rgb(136, 136, 136);
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-align: right;
+	margin-bottom: 22px;
+}
+.underline{/* 下划线属性 */
+	font-size: 14px;
+	font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+	margin: 0 2px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	color: rgb(255, 175, 56);
+	background-color: rgba(27,31,35,.05);
+	word-wrap: break-word;
+	word-break: break-all;
+	line-height: 1;
+}
+.strong{/* 加粗属性 */
+	font-weight: bolder;
+}
+.italics{/* 斜体属性 */
+	letter-spacing: 0.5px;
+	text-align: justify;
+	color: rgb(255, 175, 56);
+	font-size: 20px;
+}
+ul{/* 无序列表框架 */
+	margin: 5px 16px 10px;
+	padding-right: 0em;
+	padding-left: 0em;
+	letter-spacing: 0.5px;
+}
+ul li{/* 无序列表文字 */
+	margin: 12px 16px;
+	padding-right: 0em;
+	padding-left: 0em;
+	white-space: normal;
+	letter-spacing: 0.5px;
+	line-height: 2.5em;
+}
+ol{/* 有序列表框架 */
+	margin: 5px 16px 10px;
+	padding-right: 0em;
+	padding-left: 0em;
+	letter-spacing: 0.5px;
+}
+ol li{/* 有序列表文字 */
+	margin: 12px 16px;
+	padding-right: 0em;
+	padding-left: 0em;
+	white-space: normal;
+	letter-spacing: 0.5px;
+	line-height: 2.5em;
+}
+blockquote{/* 引用框架 */
+	display: inline-block;
+	width: 100%;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+	padding: 0px 10px;
+	border-left-color: rgb(255, 175, 56);
+	border-right-color: rgb(255, 175, 56);
+	color: rgb(47, 47, 47);
+	box-sizing: border-box;
+        margin: 15px 0px;
+}
+blockquote p{/* 引用内容 */
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	white-space: normal;
+	box-sizing: border-box;
+	color: rgb(136, 136, 136);
+}
+.divider{/* 分割线属性 */
+        display: block;
+	/* border-top: rgb(255, 175, 56) dotted 1px; */
+}
+.divider_img{/* 分割线图片属性 */
+}

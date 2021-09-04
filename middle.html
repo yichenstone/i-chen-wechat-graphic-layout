@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/middle.css"/>
+	</head>
+	<body>
+		<div class="buju">
+			
+			<form action="#" method="get">
+				<div class="file">
+					<div class="text">
+						步骤一：选择md文件或幕布html文件
+					</div>
+					<input type="button" name="up_file" id="up_file" value="上传文件" onclick="checkUp_file()"/>
+					<div class="tip" id="up_link">
+						文件路径
+					</div>
+					<div class="clear">
+						
+					</div>
+				</div>
+				<div class="func" >
+					<div class="text">
+						步骤二：选择样式<font class="text_font" id="advancedSettings">高级设置</font><font id="savetip"></font>
+					</div>
+					<div class="clear"></div>
+					<label class="item" for="item_1">
+						<input type="radio" name="item_style" id="item_1" onclick="checkItem_style1(this)"/>苹绿植物
+					</label>
+					<label class="item" for="item_2">
+						<input type="radio" name="item_style" id="item_2"  onclick="checkItem_style2(this)" />亲密甜橙
+					</label>
+					<label class="item" for="item_3">
+						<input type="radio" name="item_style" id="item_3"  onclick="checkItem_style3(this)" />生命柔绿
+					</label>
+					<label class="item" for="item_4">
+						<input type="radio" name="item_style" id="item_4"  onclick="checkItem_style4(this)"/>日向简黑
+					</label>
+					<div class="clear" id="fenge_1"></div>
+					<label class="item" for="item_5">
+						<input type="radio" name="item_style" id="item_5"  onclick="checkItem_style5(this)" />雪里红梅
+					</label>
+					<label class="item" for="item_6">
+						<input type="radio" name="item_style" id="item_6"  onclick="checkItem_style6(this)" />镂空标题
+					</label>
+					<label class="item" for="item_7">
+						<input type="radio" name="item_style" id="item_7"  onclick="checkItem_style7(this)" />云的遐想
+					</label>
+					<label class="item" for="item_8">
+						<input type="radio" name="item_style" id="item_8"  onclick="checkItem_style8(this)" />粉梦樱花
+					</label>
+					<div class="clear" id="fenge_1"></div>
+					<label class="item" for="item_001">
+						<input type="radio" name="item_style" id="item_001"  onclick="checkItem_style001(this)" />自定义一
+					</label>
+					<label class="item" for="item_002">
+						<input type="radio" name="item_style" id="item_002"  onclick="checkItem_style002(this)"/>自定义二
+					</label>
+					<label class="item" id="item_003_text" for="item_003">
+						<input type="radio" name="item_style" id="item_003"  onclick="checkItem_style003(this)"/>SVIP专属盲盒
+					</label>
+					<div class="clear" id="fenge_1"></div>
+				</div>
+				<div class="text">
+					步骤三：排版<font id="rechangetips"></font>
+				</div>
+				<div class="clear"></div>
+				<div class="div_submit">
+					<input type="button" name="" id="my_submit" value="立即排版" />
+				</div>
+				<div class="clear"></div>
+				<div class="text" id="step_4">
+					步骤四：复制排版到微信公众平台进一步编辑</br><font class="text_font">点击左侧视图，Ctrl+A，Ctrl+C</font>
+				</div>
+				<div class="clear"></div>
+			</form>
+			<input type="button" name="" id="but_temp" value="" style="display: none;"/>
+			<div class="clear" id="fenge_2">
+				————————————————————————————————————————
+			</div>
+			<div class="gonghonghao_content">
+				关注微信公众号：一陈Stone
+				<br/>
+				回复【一键幻灯】：分享给你使用markdown或者幕布制作幻灯的神技，不会技术也能做出程序员式高大上的幻灯
+				<br/>
+				回复【图文排版】：分享给你不用135编辑器、秀米也能排版公众号图文的方法，更快更高效，让你专注于文字写作
+				<br/>
+				回复【word合并】：分享给你合并多个word、Excle文档的工具，让你面对几十上百的文件也不愁整理慢，效率低
+				<br/>
+				回复【效率工具】：分享给你我一直在使用的效率工具，学习办公两不误
+				<br/>
+				回复【技能方法】：分享给你Endnote全套的使用方法，SPSS常用分析的方法，以及检索文献的方法和我整理的文献库清单
+				<br/>
+				<br/>
+			</div>
+			<div class="erweima">
+				<div class="erweima_text">
+					使用帮助&更新
+				</div>
+				<div class="gongzhonghao">
+					<img src="img/weixin.jpg" >
+				</div>
+			</div>
+		</div>
+		<!-- 高级设置页面 -->
+		<div class="adSet">
+			<div class="top">
+				高级设置(关闭该窗口时自动保存)<img id="closeSet" src="img/关闭.svg" >
+			</div>
+			<div class="dividerSet">
+				☞ 分割线设置
+			</div>
+			<div id="dividerSet_detail">
+				<div class="item_divider">
+					<div class="title">01.苹绿植物 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">02.亲密甜橙 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">03.生命之绿 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">04.日向简黑 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">05.雪里红梅 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">06.镂空标题 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">07.云的遐想 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">08.粉梦樱花 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">09.自定义一 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="item_divider">
+					<div class="title">10.自定义二 - 分割线 (url)</div>
+					<textarea class="inputText"></textarea>
+				</div>
+			</div>
+			<div class="keysSet">
+				☞ 其他关键词设置
+			</div>
+			<div id="keysSet_detail">
+				<div class="keys">
+					<div class="title">您的关键词1：</div>
+					<input type="text" class="keyword" id="keyword_1"/>
+					</br>
+					</br>
+					<div class="title">对应的html片段代码：</div>
+					</br>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="keys">
+					<div class="title">您的关键词2：</div>
+					<input type="text" class="keyword" id="keyword_2"/>
+					</br>
+					</br>
+					<div class="title">对应的html片段代码：</div>
+					</br>
+					<textarea class="inputText"></textarea>
+				</div>
+				<div class="keys">
+					<div class="title">您的关键词3：</div>
+					<input type="text" class="keyword" id="keyword_3"/>
+					</br>
+					</br>
+					<div class="title">对应的html片段代码：</div>
+					</br>
+					<textarea class="inputText"></textarea>
+				</div>
+			</div>
+			<div class="blindBoxSet">
+				☞ SVIP专属盲盒设置
+			</div>
+			<div id="blindBoxSet_detail">
+				<div class="keys">
+					<div class="title">指定盲盒主题：</div>
+					<input type="text" class="keyword" id="keyword_4""/>
+				</div>
+			</div>
+			<div class="instructions">
+				1.可以自定义自己喜欢的分割线样式，在书写的文档中单行输入***即可调用；</br>
+				2.可以自定义自己想要设置的关键词，在书写的文档中单行输入您设置的关键词即可调用；比如，您可以设置引导关注、结束标识、名片等专属于您的内容；</br>
+				3.可以自定义关键词对盲盒主题进行限定，更贴近文章内容
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/middle.js" type="text/javascript" charset="utf-8"></script>

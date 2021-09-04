@@ -1,0 +1,230 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style type="text/css">.body{/* 整个页面属性 */
+        margin-top: -10px;/* 整体页面上边距-10px */
+	padding: 0 10px; /* 整体页面边距:上下0,左右10px */
+	font-size: 16px;/* 文字大小 */
+	color: #3f3f3f;/* 文字颜色 */
+	text-align: left; /* 文字居左 */
+	line-height: 1.6em;/* 行高 */
+	letter-spacing: 0.034em;/* 字符间隔 */
+	word-wrap: break-word; /* 允许长单词换行到下一行 */
+	font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/* 字体 */
+}
+h1{/* 一级标题框架属性 */
+	letter-spacing: 0.544px;
+	white-space: normal;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	background-image: url("https://re-yichen.oss-cn-beijing.aliyuncs.com/img/title_1.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 75px;
+	line-height: 95px;
+	margin-top: 38px;
+	margin-bottom: 10px;
+}
+h1 .h1_num{/* 一级标题序号属性 */
+        font-size: 20px;
+	color: rgb(46, 159, 180);
+	border-bottom: 2px solid rgb(46, 121, 80);
+	margin-right: 5px;
+}
+h1 .text{/* 一级标题文字属性 */
+	font-size: 20px;
+	color: rgb(46, 159, 180);
+	border-bottom: 2px solid rgb(46, 121, 80);
+}
+h1 .text_noNum{/* 一级标题文字属性（无序号） */
+	font-size: 20px;
+	color: rgb(46, 159, 180);
+	border-bottom: 2px solid rgb(46, 121, 80);
+}
+h2{/* 二级标题框架属性 */
+	display: block;
+	padding: 0px;
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/title2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: 50px;
+	margin-top: 1em;
+	margin-bottom: 10px;
+}
+h2 .h2_num{/* 二级标题序号属性 */
+        display: inline-block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: #2e9fb4; 
+	background-size: 63px; 
+	margin-top: 38px; 
+	font-size: 18px; 
+	margin-bottom: 10px;
+        margin-right: 5px;
+}
+h2 .text{/* 二级标题文字属性 */
+	display: inline-block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: #2e9fb4; 
+	background-size: 63px; 
+	margin-top: 38px; 
+	font-size: 18px; 
+	margin-bottom: 10px;
+}
+h2 .text_noNum{/* 二级标题文字属性（无序号） */
+	display: inline-block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: #2e9fb4; 
+	background-size: 63px; 
+	margin-top: 38px; 
+	font-size: 18px; 
+	margin-bottom: 10px;
+}
+h3{/* 三级标题框架属性 */
+	margin-bottom: 15px;
+	padding: 0px;
+	color: black;
+	margin-top: 1.2em;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/h3.png);
+	background-repeat: no-repeat;
+	background-size: 17px;
+	line-height: 17px;
+}
+h3 .h3_num{/* 三级标题序号属性 */
+        font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: #2e9fb4;
+        margin-left:20px;
+        margin-right: 5px;
+}
+h3 .text{/* 三级标题文字属性 */
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: #2e9fb4;
+}
+h3 .text_noNum{/* 三级标题文字属性（无序号） */
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: #2e9fb4;
+        margin-left:20px;
+}
+p{/* 正文属性 */
+	margin: 10px 0px;
+	text-align: justify;/* 文字两端对齐 */
+	/* text-indent:2em */ /* 首行缩进 */
+}
+img{/* 图片属性 */
+	display: block;
+	margin: 20px auto 10px;
+	max-width: 100%;
+	border-radius: 4px;
+}
+.img_title{/* 图片名称 */
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #888;
+	font-size: 12px;
+}
+.underline,.codespan{/* 下划线属性 */
+	font-size: 14px;
+	font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+	margin: 0 2px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	color: #2e9fb4;
+	background-color: rgba(27,31,35,.05);
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.strong{/* 加粗属性 */
+	font-weight: bold;
+	line-height: 1.75em;
+	color: rgb(74,74,74);
+}
+.italics{/* 斜体属性 */
+	background: linear-gradient(to right, #27dbb3, #2e9fb4);
+	color: white;
+	border-width: 0.25em 0px;
+	padding: 2px 4px;
+}
+ul{/* 无序列表框架 */
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 25px;
+	color: black;
+	list-style-type: disc;
+}
+ul li{/* 无序列表文字 */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 26px;
+	text-align: left;
+	color: rgb(1,1,1);
+	font-weight: 500;
+}
+ol{/* 有序列表框架 */
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 25px;
+	color: black;
+	list-style-type: decimal;
+}
+ol li{/* 有序列表文字 */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 26px;
+	text-align: left;
+	color: rgb(1,1,1);
+	font-weight: 500;
+}
+blockquote{/* 引用框架 */
+	display: block;
+	font-size: 0.9em;
+	color: #6a737d;
+	overflow: auto;
+	overflow-scrolling: touch;
+	background: rgba(0, 0, 0, 0.05);
+	background-color: #FBF9FD;
+	margin: 20px 0px;
+	padding: 15px 20px;
+	line-height: 27px;
+	border-left: 3px solid #2e9fb4;
+}
+blockquote p{/* 引用内容 */
+	margin: 0px;
+	padding: 0px;
+	line-height: 26px;
+	font-size: 15px;
+	color: rgb(89,89,89);
+}
+.divider{/* 分割线属性 */
+        display: block;
+}
+.divider_img{/* 分割线图片属性 */
+}
+body{ /* 默认属性 */
+        padding:0px 0px;
+        margin:0px;
+        background-color: white;/* 背景颜色 */
+}
+svg{ /* 默认属性，需要添加svg图像时可使用 */
+        display:none;
+}
+.h1_img,.h2_img,.h3_img{ /* 默认属性，需要添加图片标题背景时可使用 */
+        display:none;
+}</style><script src="js/left.js" type="text/javascript" charset="utf-8"></script></head><body><span class="body" style="display:block;"><h1></h1><h1 data-tool="一陈图文排版" ><img class="h1_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h1_svg_box"><svg class="h1_svg"></svg></span><span  class="text_noNum">更新</span></h1><blockquote data-tool="一陈图文排版"><p class="citation">V1.2支持Markdown格式内容的排版</p></blockquote><h2 data-tool="一陈图文排版" ><img class="h2_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h2_svg_box"><svg class="h2_svg"></svg></span><span class="h2_num">01</span><span  class="text">简介</span></h2><p>一陈微信图文排版工具能够帮助你实现微信图文的内容的快速排版，当前软件版本支持两种格式的输入文件：<span class="underline">.md</span> 与 <span class="underline">.html</span>。</p><ul><li>使用Markdown工具，如<span class="underline">Typora</span>完成内容书写，保存的格式为<span class="underline">.md</span>。</li><li>使用笔记工具<span class="underline">幕布</span>完成内容书写，导出格式<span class="underline">.html</span>。</li></ul><blockquote data-tool="一陈图文排版"><p class="citation">公众号私信<span class="underline">排版</span>即可获取</p></blockquote><h2 data-tool="一陈图文排版" ><img class="h2_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h2_svg_box"><svg class="h2_svg"></svg></span><span class="h2_num">02</span><span  class="text">主题</span></h2><ul><li>已有主题：苹绿植物、亲密甜橙、生命柔绿、日向简黑、雪里红梅、镂空标题、云的遐想、粉梦樱花等8个主题，以及特色的盲盒主题（随机选取样式）。</li></ul><h2 data-tool="一陈图文排版" ><img class="h2_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h2_svg_box"><svg class="h2_svg"></svg></span><span class="h2_num">03</span><span  class="text">通用设置</span></h2><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.1</span><span  class="text">标题</span></h3><p>Markdown标题设置</p><img src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/image-20210903211256682.png"><blockquote data-tool="一陈图文排版"><p class="citation">tip：数字+（空格）+文字 或 文字 +（空格）+文字的标题，空格前面的部分会作为标题序号出现</p></blockquote><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.2</span><span  class="text">无序列表</span></h3><p>无序列表的使用，在正文前加符号<span class="underline">-</span>使用。效果如下：</p><ul><li>无序列表1</li><li>无序列表2</li><li>无序列表3</li></ul><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.3</span><span  class="text">有序列表</span></h3><p>有序列表的使用，在正文前加数字加符号<span class="underline">1.</span>使用。效果如下：</p><ol><li>有序列表1</li><li>有序列表2</li><li>有序列表3</li><li>有序列表4</li><li>有序列表5</li><li>有序列表6</li><li>有序列表7</li><li>有序列表8</li><li>有序列表9</li><li>有序列表10</li><li>有序列表11</li><li>有序列表12</li></ol><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.4</span><span  class="text">引用</span></h3><p>引用的格式在符号<span class="underline">></span>后面书写文字。如下：</p><blockquote data-tool="一陈图文排版"><p class="citation">这句话引用自xxx</p><p class="citation">书是人类进步的阶梯。 ——高尔基</p></blockquote><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.5</span><span  class="text">粗体、斜体、下划线</span></h3><img src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/image-20210903211754580.png"><p><span class="strong">加粗文字（Ctrl+B）</span></p><p><span class="italics">斜体文字（Ctrl+I）</span></p><p><span class="underline">下划线文字（Ctrl+U）</span></p><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.6</span><span  class="text">图片</span></h3><p>Markdown插入图片的格式为：<span class="underline">![图片名称/描述@70%](图片链接)</span></p><img src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/image-20210903212235919.png"><span class="img_title">插入图片的格式</span><img src="https://api2.mubu.com/v3/document_image/22725323-6f74-4f8b-bc58-5ceea757a48d-4000215.jpg" width="150" height="150"><span class="img_title">这里是150×150图片</span><img src="https://api2.mubu.com/v3/document_image/22725323-6f74-4f8b-bc58-5ceea757a48d-4000215.jpg" width="70%"><span class="img_title">这里是宽度为70%图片</span><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.7</span><span  class="text">分割线</span></h3><p>分割线的使用是<span class="underline">***</span>，<span class="underline">---</span>，<span class="underline">___</span>，三选一。</p><blockquote data-tool="一陈图文排版"><p class="citation">tips：用户可根据自己的喜好自定义分割线</p></blockquote><img src="https://api2.mubu.com/v3/document_image/53cf5c28-b905-4446-9c4f-91b873b2c2e3-4000215.jpg"><span class="img_title">用户自定义分割线</span><span class="divider"></span><img class="divider_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/divider.png" ><h3 data-tool="一陈图文排版" ><img class="h3_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h3_svg_box"><svg class="h3_svg"></svg></span><span class="h3_num">3.8</span><span  class="text">自定义关键词</span></h3><blockquote data-tool="一陈图文排版"><p class="citation">用户可以自定义图文的关键词。单行输入该关键词时即触发已设置好的排版。</p></blockquote><p>可自定义引导关注、名片、固定的文章段落等，减少复制粘贴的工作量，更进一步提高排版效率。</p><img src="https://api2.mubu.com/v3/document_image/7b6b48fa-5118-432a-8518-aead5d1ea5d8-4000215.jpg"><p style='color: white;background-color: #999966;text-align: center;'>这是关键词一设置的样式</p><p style='color: white;background-color: #CCCC99;text-align: center;'>这是关键词二设置的样式</p><p style='color: white;background-color: #339999;text-align: center;'>这是关键词三设置的样式</p><h2 data-tool="一陈图文排版" ><img class="h2_img" src="https://re-yichen.oss-cn-beijing.aliyuncs.com/img/%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><span class="h2_svg_box"><svg class="h2_svg"></svg></span><span class="h2_num">04</span><span  class="text">结语</span></h2><p>当前Markdown语法还没有全部支持，如高亮，表格，公式，代码等，之后如果有时间会继续更新。另外，微信公众号当前还不支持复制拉取本地图片，所以图片一定要上传到网络，然后插入图片的网络链接。</p><p>如果你在使用过程中遇到了什么问题，或者需要一些帮助，欢迎联系一陈。感谢你的支持🌹</p></span></body></html>

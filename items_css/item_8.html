@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/right.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="buju_right">
+			<div class="title_text">
+				CSS代码
+			</div>
+			<div class="but">
+				<input type="button" name="save" id="save_item" value="保存" />
+				<div id="save_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but">
+				<input type="button" name="copy" id="copy_item" value="复制" />
+				<div id="copy_correct" class="correct">
+					
+				</div>
+			</div>
+			<div class="but" >
+				<input type="button" name="reset" id="reset_item" value="重置" />
+				<div id="reset_correct" class="correct">
+					
+				</div>
+			</div>
+			<textarea rows="35" cols="20" class="out_text" name="textarea" id="item_text" charset="utf-8">.body{/* 整个页面属性 */
+	padding: 10px; /* 整体页面边距:上下左右10px */
+	font-size: 16px;/* 文字大小 */
+	color: #3f3f3f;/* 文字颜色 */
+	text-align: left; /* 文字居左 */
+	line-height: 1.6em;/* 行高 */
+	letter-spacing: 0.034em;/* 字符间隔 */
+	word-wrap: break-word; /* 允许长单词换行到下一行 */
+	font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/* 字体 */
+}
+h1{/* 一级标题框架属性 */
+	display: block;
+	padding: 0px;
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/049-hanami.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 40px;
+	margin-top: 1em;
+	margin-bottom: 10px;
+}
+h1 .h1_num{/* 一级标题序号属性 */
+        display: block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: rgb(255, 255, 255);
+	text-shadow: rgba(255,142,158,70%) 1px 1px, rgba(255,142,158,70%) 1px -1px, rgba(255,142,158,70%) -1px 1px, rgba(255,142,158,70%) -1px -1px;
+	background-size: 63px; 
+	margin: 38px 5px 0px 10px;
+	font-size: 18px; 
+}
+h1 .text{/* 一级标题文字属性 */
+	display: inline-block;
+	text-align: center;
+	line-height: 42px; 
+	color: rgb(255,142,158); 
+	background-size: 63px; 
+	margin-top:10px; 
+	font-size: 17px; 
+	margin-bottom: 10px;
+}
+h1 .text_noNum{/* 一级标题文字属性（无序号） */
+	display: inline-block;
+	text-align: center;
+	line-height: 42px; 
+	color: rgb(255,142,158); 
+	background-size: 63px; 
+	margin-top:33px; 
+	font-size: 17px; 
+	margin-bottom: 10px;
+}
+h2{/* 二级标题框架属性 */
+	display: block;
+	padding: 0px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/049-hanami.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 45px;
+	margin-top: 1em;
+	margin-bottom: 10px;
+}
+h2 .h2_num{/* 二级标题序号属性 */
+    display: block;
+	text-align: center;
+	height: 38px; 
+	line-height: 42px; 
+	color: rgb(255, 255, 255);
+	text-shadow: rgba(255,142,158,70%) 1px 1px, rgba(255,142,158,70%) 1px -1px, rgba(255,142,158,70%) -1px 1px, rgba(255,142,158,70%) -1px -1px;
+	background-size: 63px; 
+	margin: 38px 5px 0px 10px;
+	font-size: 18px; 
+}
+h2 .text{/* 二级标题文字属性 */
+	display: inline-block;
+	text-align: center; 
+	color: white; 
+	background-color: rgb(255,142,158);
+	font-size: 16px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	padding: 0px 4px;
+}
+h2 .text_noNum{/* 二级标题文字属性（无序号） */
+	display: inline-block;
+	text-align: center;
+	color: white;
+	background-color: rgb(255,142,158);
+	font-size: 16px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	padding: 0px 4px;
+}
+h3{/* 三级标题框架属性 */
+	margin: 20px 0px 15px 10px;
+	padding: 0px;
+	color: black;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/030-hanami.svg);
+	background-repeat: no-repeat;
+	background-size: 17px;
+	line-height: 17px;
+}
+h3 .h3_num{/* 三级标题序号属性 */
+        font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: rgb(255,142,158);
+        margin-left:20px;
+        margin-right: 5px;
+}
+h3 .text{/* 三级标题文字属性 */
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: rgb(255,142,158);
+}
+h3 .text_noNum{/* 三级标题文字属性（无序号） */
+	font-size: 17px;
+	font-weight: bold;
+	display: inline-block;
+	color: rgb(255,142,158);
+        margin-left:20px;
+}
+p{/* 正文属性 */
+	font-size: 16px;
+	margin: 10px 10px;
+	text-align: justify;/* 文字两端对齐 */
+	/* text-indent:2em */ /* 首行缩进 */
+}
+img{/* 图片属性 */
+	display: block;
+	margin: 20px auto 10px;
+	max-width: 100%;
+	border-radius: 4px;
+}
+.img_title{/* 图片名称 */
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #888;
+	font-size: 12px;
+}
+.underline,.codespan{/* 下划线属性 */
+	font-size: 14px;
+	font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+	margin: 0 2px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	color: #ff8e9e;
+	background-color: rgba(255, 142, 158, 0.1);
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.strong{/* 加粗属性 */
+	font-weight: bold;
+	color: #ff8e9e;
+}
+.italics{/* 斜体属性 */
+	color:#ff8e9e ;
+	font-weight: bold;
+	background: linear-gradient(to bottom, white 50%, rgba(255,142,158,0.1) 30%);
+	border-width: 0.25em 0px;
+	padding: 2px 4px;
+	border-radius: 4px;
+}
+ul{/* 无序列表框架 */
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 25px;
+	color: black;
+	list-style-type: disc;
+}
+ul li{/* 无序列表文字 */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 26px;
+	text-align: left;
+	color: rgb(1,1,1);
+	font-weight: 500;
+}
+ol{/* 有序列表框架 */
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding-left: 25px;
+	color: black;
+	list-style-type: decimal;
+}
+ol li{/* 有序列表文字 */
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 26px;
+	text-align: left;
+	color: rgb(1,1,1);
+	font-weight: 500;
+}
+blockquote{/* 引用框架 */
+	display: block;
+	font-size: 0.9em;
+	color: #6a737d;
+	overflow: auto;
+	overflow-scrolling: touch;
+	background: rgba(0, 0, 0, 0.05);
+	background-color: #FBF9FD;
+	margin: 20px 0px;
+	padding: 15px 20px;
+	line-height: 27px;
+	border-left: 3px solid #ff8e9e;
+	border-radius: 20px 0px 20px 0px;
+	background-image: url(https://re-yichen.oss-cn-beijing.aliyuncs.com/img/016-hanami.svg);
+	background-position: 98% 2%;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+blockquote p{/* 引用内容 */
+	margin: 0px;
+	padding: 0px;
+	line-height: 26px;
+	font-size: 15px;
+	color: rgb(89,89,89);
+}
+.divider{/* 分割线属性 */
+        display: block;
+}
+.divider_img{/* 分割线图片属性 */
+        width:50px;
+        margin:40px auto;
+}
+body{ /* 默认属性 */
+        padding:0px 0px;
+        margin:0px;
+        background-color: white;/* 背景颜色 */
+}
+svg{ /* 默认属性，需要添加svg图像时可使用 */
+        display:none;
+}
+.h1_img,.h2_img,.h3_img{ /* 默认属性，需要添加图片标题背景时可使用 */
+        display:none;
+}</textarea>
+		</div>
+	</body>
+	<script src="./js/right.js" type="text/javascript" charset="utf-8"></script>
+</html>
